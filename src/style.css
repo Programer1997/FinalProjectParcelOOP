@@ -80,7 +80,7 @@ body main .busqueda .searchFlight {
   flex-direction: row;
   justify-content: space-between;
   padding: 1%;
-  padding-bottom: 4%;
+  padding-bottom: 1%;
 }
 body main .busqueda .searchFlight input {
   padding: 1%;
@@ -89,6 +89,10 @@ body main .busqueda .searchFlight input {
 body main .busqueda .searchFlight select {
   padding: 1%;
   margin-right: 1%;
+}
+body main .busqueda #iataDetails {
+  margin-left: 2%;
+  padding: 1%;
 }
 body main #container {
   width: 90%;
@@ -119,6 +123,7 @@ body main #container #containerCards .individualFlight {
   transition: all 0.4s;
   padding: 2%;
   margin-bottom: 2%;
+  background-color: #fff;
 }
 body main #container #containerCards .individualFlight h4 {
   width: 20%;
@@ -164,4 +169,70 @@ body main #container #containerCards .individualFlight .flightThings {
 body main #container #containerCards .individualFlight:hover {
   transform: scale(1.1);
   box-shadow: 0 0 20px #666;
+  background-color: rgb(243, 246, 249);
+}
+body main #services {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+body main #services button {
+  width: 30%;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: rgb(5, 33, 62);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+  font-size: 1.7em;
+}
+body main #services button img {
+  width: 15%;
+}
+body main #services button:hover {
+  cursor: pointer;
+  background-color: #1a1a1a;
+}
+body main #imgFondo {
+  width: 90%;
+  margin-top: 3%;
+}
+body main #imgFondo img {
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+body main #imgFondo img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #666;
+}
+body footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #131921;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  margin-top: 3%;
+}
+body footer .footer--message {
+  width: 45%;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body footer .footer--socialMedia {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  height: 2.5em;
+}
+body footer .footer--socialMedia img {
+  width: 2em;
+  height: auto;
+  margin-left: 1em;
 }/*# sourceMappingURL=style.css.map */

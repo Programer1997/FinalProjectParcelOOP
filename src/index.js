@@ -83,7 +83,10 @@ async function fetchFlights(){
             }
             container.innerHTML = card;
             
+            
         });
+
+        
     });
     
 };
