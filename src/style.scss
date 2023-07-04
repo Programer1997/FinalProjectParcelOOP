@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    //font-family: 'Alkatra', cursive;
+    //font-family: 'Dancing Script', cursive;
+    header { 
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(5,32,60);
+
+        .tittle {
+            width: 50%;
+            height: auto;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin-left: 1%;
+            font-family: 'Alkatra', cursive;
+            font-size: 1.3em;
+
+
+            //background-color: aqua;
+            img {
+                width: 15%;
+                height: auto;
+                margin-right: 1%;
+
+            }
+            h1{
+                color: white;
+
+            }
+        }
+        .login{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            font-family: 'Alkatra', cursive;
+            img{
+                width: 6%;
+            }
+            .login-User{
+                width: 20%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-left: 4%;
+                img{
+                    width: 25%;
+                }
+                p{
+                    color: white;
+                    font-size: 1.5em;
+                    margin-left: 2%;
+                    margin-bottom: 0;
+                }
+            }
+            .menuIcon{
+                width: 6%;
+                height: auto;
+            }
+        }
+
+    }
+    main {
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        .busqueda{ 
+            width: 100%;
+            background-color: rgb(5,32,60);
+            display: flex;
+            flex-direction: column;
+            color: white;
+            .message { 
+                padding: 1%;
+
+            }
+            .searchFlight{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 1%;
+                padding-bottom: 4%;
+                input{
+                    padding: 1%;
+                    margin-right: 1%;
+
+                }
+                select{
+                    padding: 1%;
+                    margin-right: 1%;
+
+                }
+            }
+
+        }
+        #container { 
+            width: 90%;
+            height: 100%;
+            background-color:  rgb(233, 240, 248);
+            border-radius: 10px;
+            margin-top: 2%;
+            padding: 1%;
+
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+            h3 { 
+                color: black;
+            }
+            #containerCards{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center; //new
+                
+
+                .individualFlight {
+                    width: 90%;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    transition: all 0.4s;
+                    padding: 2%;  //new
+                    margin-bottom: 2%; //new
+                    
+
+                    
+                    h4{
+                        width: 20%;
+
+                    }
+                    .trip{
+                        width: 40%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .departureTime { 
+                            width: 30%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            p{
+
+                            }
+
+                        }
+                        .iconFly {
+                            width: 30%;
+                            img {
+                                width: 40%;
+                                height: auto;
+
+                            }
+                            span{
+                                width: 60%;
+                                height: 5%;
+                                background-color: black;
+                                border-radius: 5px;
+                            }
+
+                        }
+                        .arriveTime { 
+                            width: 30%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            p{
+
+                            }
+
+                        }
+
+                    }
+                    .flightThings {
+                        width: 20%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+
+                        p{
+
+                        }
+                        button {
+
+                        }
+
+                    }
+
+                }
+                .individualFlight:hover {
+                    transform: scale(1.1);
+                    box-shadow: 0 0 20px #666;
+                }
+
+            }
+
+        }
+        
+    }
+    footer { 
+
+    }
+}

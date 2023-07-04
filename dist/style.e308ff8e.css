@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(5, 32, 60);
+}
+body header .tittle {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 1%;
+  font-family: "Alkatra", cursive;
+  font-size: 1.3em;
+}
+body header .tittle img {
+  width: 15%;
+  height: auto;
+  margin-right: 1%;
+}
+body header .tittle h1 {
+  color: white;
+}
+body header .login {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-family: "Alkatra", cursive;
+}
+body header .login img {
+  width: 6%;
+}
+body header .login .login-User {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 4%;
+}
+body header .login .login-User img {
+  width: 25%;
+}
+body header .login .login-User p {
+  color: white;
+  font-size: 1.5em;
+  margin-left: 2%;
+  margin-bottom: 0;
+}
+body header .login .menuIcon {
+  width: 6%;
+  height: auto;
+}
+body main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+body main .busqueda {
+  width: 100%;
+  background-color: rgb(5, 32, 60);
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+body main .busqueda .message {
+  padding: 1%;
+}
+body main .busqueda .searchFlight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+  padding-bottom: 4%;
+}
+body main .busqueda .searchFlight input {
+  padding: 1%;
+  margin-right: 1%;
+}
+body main .busqueda .searchFlight select {
+  padding: 1%;
+  margin-right: 1%;
+}
+body main #container {
+  width: 90%;
+  height: 100%;
+  background-color: rgb(233, 240, 248);
+  border-radius: 10px;
+  margin-top: 2%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+body main #container h3 {
+  color: black;
+}
+body main #container #containerCards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main #container #containerCards .individualFlight {
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  transition: all 0.4s;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+body main #container #containerCards .individualFlight h4 {
+  width: 20%;
+}
+body main #container #containerCards .individualFlight .trip {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body main #container #containerCards .individualFlight .trip .departureTime {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body main #container #containerCards .individualFlight .trip .iconFly {
+  width: 30%;
+}
+body main #container #containerCards .individualFlight .trip .iconFly img {
+  width: 40%;
+  height: auto;
+}
+body main #container #containerCards .individualFlight .trip .iconFly span {
+  width: 60%;
+  height: 5%;
+  background-color: black;
+  border-radius: 5px;
+}
+body main #container #containerCards .individualFlight .trip .arriveTime {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body main #container #containerCards .individualFlight .flightThings {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+body main #container #containerCards .individualFlight:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #666;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
